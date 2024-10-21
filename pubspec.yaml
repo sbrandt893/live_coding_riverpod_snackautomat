@@ -1,19 +1,23 @@
 name: live_coding_riverpod_snackautomat
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: ^3.6.0-167.0.dev
+  sdk: ^3.5.3
 
 dependencies:
+  custom_lint: ^0.6.8
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.6.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  riverpod_lint: ^2.3.10
 
 flutter:
   uses-material-design: true
